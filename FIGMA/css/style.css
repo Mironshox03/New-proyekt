@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+    background-image: linear-gradient(white 0, white 90% , orange 91% , orange 100%);
+}
+.wrapper{
+    width: 1440px;
+    height: 4913px;
+    margin: 0 auto;
+}
+.container{
+    width: 1440px;
+    height: 4913px;
+    margin: 0 auto;
+}
+.heder{
+    position: relative;
+    width: 1440px;
+height: 80px;
+margin: 0 auto;
+}
+.logo{
+    position: absolute;
+    width: 170px;
+height: 21px;
+top: 30px;
+cursor: pointer;
+}
+.menu{
+    position: absolute;
+    width: 1014px;
+height: 80px;
+margin-top: 30px;
+margin-left: 190px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    top: 30px;
+    left: 1244px;
+    padding: 8px 20px 8px 13px;
+    cursor: pointer;
+}
+.slider{
+    width: 1294px;
+height: 550px;
+margin-top: 108px;
+border-radius: 65px;
+}
+.menus{
+        width: 1151px;
+height: 114px;
+padding: 18px 190.5px 10px 195.5px;
+margin-left: 0px;
+margin-top: 30px;
+}
+.menus h1{
+    width: 780px;
+height: 53px;
+margin-left: 50.5px;
+font-family: Readex Pro;
+font-size: 42px;
+font-weight: 400;
+line-height: 52.5px;
+text-align: center;
+}
+.menus p{
+    width: 628px;
+height: 34px;
+margin-left: 121.5px;
+font-family: Readex Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+}
+.cards{
+    position: relative;
+    width: 1294px;
+height: 792px;
+background-color: black;
+margin-left: -67px;
+}
+.card1{
+    width: 639px;
+height: 472px;
+margin-top: 50px;
+}
+.cards .card2{
+    position: absolute;
+    width: 312px;
+    height: 792px;
+    left: 709px;
+    top: 0px;
+}
+.card3{
+    position: absolute;
+    width: 312px;
+    height: 792px;
+    left: 1050px;
+    top: 0;
+    
+}
+.card4{
+    position: absolute;
+    width: 639px;
+    height: 270px;
+    top: 522px;
+    
+}
+.menuus{
+    width: 1294px;
+height: 154px;
+margin-top: 100px;
+}
+.menuus h1{
+    width: 642px;
+height: 53px;
+margin-left: 350px;
+left: 326px;
+font-family: Readex Pro;
+font-size: 42px;
+font-weight: 400;
+line-height: 52.5px;
+text-align: center;
+}
+.menuus p{
+    width: 422px;
+height: 17px;
+margin-left: 470px;
+font-family: Readex Pro;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: left;
+}
+.cards2{
+    width: 1294px;
+height: 396px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cards2 .card{
+    width: 302.5px;
+    height: 396px;
+    gap: 0px;
+    opacity: 0px;
+}
+.cards2 .a:hover{
+    transition: 0.5s;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+}
+.cars2 .card11{
+    width: 302.5px;
+height: 396px;
+left: 330.5px;
+gap: 0px;
+opacity: 0px;
+
+}
+.cards2 .card12{
+    width: 302.5px;
+height: 396px;
+left: 661px;
+gap: 0px;
+opacity: 0px;
+}
+.cards2 .card13{
+    width: 302.5px;
+height: 396px;
+left: 991.5px;
+gap: 0px;
+opacity: 0px;
+}
+.menus3{
+    width: 1294px;
+height: 98px;
+padding: 19px 382px 0px 383px;
+margin-top: 40px;
+}
+.menus3 h1{
+    width: 529px;
+height: 53px;
+margin-left: -17px;
+font-family: Readex Pro;
+font-size: 42px;
+font-weight: 400;
+line-height: 52.5px;
+text-align: center;
+}
+.menus3 p{
+    width: 422px;
+height: 17px;
+margin-left: 65px;
+font-family: Readex Pro;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: left;
+}
+.cards3{
+    width: 1294px;
+height: 453px;
+display: flex;
+margin-top: 70px;
+justify-content: space-around;
+align-items: center;
+}
+.menus4{
+    width: 1294px;
+height: 78px;
+margin-top: 70px;
+}
+.menus4 h1{
+    width: 497px;
+height: 53px;
+margin-left: 390px;
+font-family: Readex Pro;
+font-size: 42px;
+font-weight: 400;
+line-height: 52.5px;
+text-align: center;
+}
+.menus4 p{
+    width: 422px;
+height: 17px;
+font-family: Readex Pro;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+margin-left: 420px;
+}
+.book{
+    width: 1294px;
+height: 420px;
+display: flex;
+justify-content: space-around;
+padding: 20px 0px 0px 0px;
+}
+.book p{
+    width: 569px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+}
+.see{
+    width: 200px;
+height: 28px;
+display: flex;
+margin: 10px auto;
+}
+.see p{
+    width: 79px;
+height: 29px;
+margin-left: 1%;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+}
+.see img{
+    width: 30px;
+height: 28px;
+margin-left: 10px;
+}
+/* Umumiy sozlamalar */
+
+/* Qidiruv bo'limi */
+.search-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin: 100px auto;
+}
+
+.search-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: inline-block;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-tags {
+    margin-top: 20px;
+}
+
+.search-tags button {
+    background-color: #eee;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-tags button:hover {
+    background-color: #ccc;
+}
+
+/* Ro'yxatdan o'tish bo'limi */
+.signup-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+    margin-top: 30px;
+}
+
+.signup-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.signup-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: inline-block;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.signup-form button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #555;
+}
+/* Footer bo'limi */
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: -600px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-column {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.footer-column h3, .footer-column h4 {
+    margin-bottom: 15px;
+}
+
+.footer-column p, .footer-column ul {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #777;
+}
